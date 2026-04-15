@@ -30,7 +30,13 @@
           to="/services"
           :class="navLinkClass(isServices)"
         >
-          Services
+          Services Hub
+        </router-link>
+        <router-link
+          to="/treatments"
+          :class="navLinkClass(isTreatments)"
+        >
+          Treatments
         </router-link>
         <router-link
           to="/faqs"
@@ -63,7 +69,8 @@ const route = useRoute()
 
 const isHome = computed(() => route.path === '/')
 const isAbout = computed(() => route.path === '/about')
-const isServices = computed(() => route.path === '/services')
+const isServices = computed(() => route.path === '/services' || route.path.startsWith('/services/'))
+const isTreatments = computed(() => route.path === '/treatments' || route.path.startsWith('/treatments/'))
 const isFaqs = computed(() => route.path === '/faqs')
 
 const activeClass =

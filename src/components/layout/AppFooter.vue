@@ -31,7 +31,7 @@
       <div class="space-y-6 md:text-right">
         <div class="flex md:justify-end flex-wrap gap-4 items-center">
           <a
-            class="group w-10 h-10 rounded-full border border-stone-300 flex items-center justify-center text-stone-500 hover:border-primary transition-colors"
+            class="group w-10 h-10 rounded-full border border-stone-300 dark:border-stone-600 flex items-center justify-center"
             href="#"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,13 +40,13 @@
             <img
               src="/facebook.png"
               alt=""
-              class="w-5 h-5 object-contain opacity-55 transition-opacity duration-200 group-hover:opacity-100"
+              class="w-5 h-5 object-contain grayscale opacity-60 transition-all duration-200 group-hover:grayscale-0 group-hover:opacity-100 dark:grayscale-0 dark:brightness-0 dark:invert dark:opacity-70 dark:group-hover:brightness-100 dark:group-hover:invert-0 dark:group-hover:opacity-100"
               width="20"
               height="20"
             >
           </a>
           <a
-            class="group w-10 h-10 rounded-full border border-stone-300 flex items-center justify-center text-stone-500 hover:border-primary transition-colors"
+            class="group w-10 h-10 rounded-full border border-stone-300 dark:border-stone-600 flex items-center justify-center"
             href="#"
             target="_blank"
             rel="noopener noreferrer"
@@ -55,13 +55,13 @@
             <img
               src="/instagram.png"
               alt=""
-              class="w-5 h-5 object-contain opacity-55 transition-opacity duration-200 group-hover:opacity-100"
+              class="w-5 h-5 object-contain grayscale opacity-60 transition-all duration-200 group-hover:grayscale-0 group-hover:opacity-100 dark:grayscale-0 dark:brightness-0 dark:invert dark:opacity-70 dark:group-hover:brightness-100 dark:group-hover:invert-0 dark:group-hover:opacity-100"
               width="20"
               height="20"
             >
           </a>
           <a
-            class="group w-10 h-10 rounded-full border border-stone-300 flex items-center justify-center text-stone-500 hover:border-primary transition-colors"
+            class="group w-10 h-10 rounded-full border border-stone-300 dark:border-stone-600 flex items-center justify-center"
             href="#"
             target="_blank"
             rel="noopener noreferrer"
@@ -70,20 +70,20 @@
             <img
               src="/twitter.png"
               alt=""
-              class="w-5 h-5 object-contain opacity-55 transition-opacity duration-200 group-hover:opacity-100"
+              class="w-5 h-5 object-contain grayscale opacity-60 transition-all duration-200 group-hover:grayscale-0 group-hover:opacity-100 dark:grayscale-0 dark:brightness-0 dark:invert dark:opacity-70 dark:group-hover:brightness-100 dark:group-hover:invert-0 dark:group-hover:opacity-100"
               width="20"
               height="20"
             >
           </a>
           <a
-            class="w-10 h-10 rounded-full border border-stone-300 flex items-center justify-center text-stone-600 hover:text-primary transition-colors"
+            class="w-10 h-10 rounded-full border border-stone-300 dark:border-stone-600 flex items-center justify-center text-stone-500 dark:text-stone-400 hover:text-primary transition-colors"
             href="#"
             aria-label="Share"
           >
             <span class="material-symbols-outlined">share</span>
           </a>
           <a
-            class="w-10 h-10 rounded-full border border-stone-300 flex items-center justify-center text-stone-600 hover:text-primary transition-colors"
+            class="w-10 h-10 rounded-full border border-stone-300 dark:border-stone-600 flex items-center justify-center text-stone-500 dark:text-stone-400 hover:text-primary transition-colors"
             href="#"
             aria-label="Email"
           >

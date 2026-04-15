@@ -19,7 +19,10 @@
       <!-- Two rows × 3 columns: [Mental 2col | Chronic] / [Acute 2col | Sexual under Chronic] -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
         <!-- Mental Health — same width as Acute (spans 2 cols) -->
-        <div class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+        <RouterLink
+          to="/services/mental-health"
+          class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] group block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <div class="flex flex-col md:flex-row gap-8">
             <div class="flex-1 min-w-0">
               <span class="material-symbols-outlined text-4xl text-primary mb-6">psychology</span>
@@ -46,10 +49,13 @@
               >
             </div>
           </div>
-        </div>
+        </RouterLink>
 
         <!-- Chronic Conditions — top of column 3 -->
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+        <RouterLink
+          to="/services/chronic-conditions"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">monitor_heart</span>
           <h3 class="font-manrope font-medium text-2xl text-on-surface mb-4">Chronic Conditions</h3>
           <p class="font-lato text-sm text-on-surface-variant mb-6 leading-relaxed font-normal">
@@ -65,10 +71,13 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
 
         <!-- Acute Care — row 2, spans cols 1–2 -->
-        <div class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+        <RouterLink
+          to="/services/acute-care-general-issues"
+          class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">medication</span>
           <h3 class="font-manrope font-medium text-2xl text-on-surface mb-4">Acute Care and General Issues</h3>
           <p class="font-lato text-sm text-on-surface-variant mb-6 leading-relaxed font-normal max-w-3xl">
@@ -84,10 +93,13 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
 
         <!-- Sexual Health — under Chronic (column 3, row 2) -->
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+        <RouterLink
+          to="/services/sexual-health"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">health_and_safety</span>
           <h3 class="font-manrope font-medium text-2xl text-on-surface mb-4">Sexual Health</h3>
           <p class="font-lato text-sm text-on-surface-variant mb-6 leading-relaxed font-normal">
@@ -103,12 +115,15 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
       </div>
 
       <!-- Row 3: Women's Health (2 cols) + Allergies & Immune Support -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-        <div class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+        <RouterLink
+          to="/services/womens-health"
+          class="lg:col-span-2 bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">female</span>
           <h3 class="font-manrope font-medium text-2xl text-on-surface mb-4">Women's Health</h3>
           <p class="font-lato text-sm text-on-surface-variant mb-6 leading-relaxed font-normal max-w-3xl">
@@ -124,8 +139,11 @@
               {{ item }}
             </li>
           </ul>
-        </div>
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+        </RouterLink>
+        <RouterLink
+          to="/services/allergies-immune-support"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">allergy</span>
           <h3 class="font-manrope font-medium text-2xl text-on-surface mb-4">Allergies &amp; Immune Support</h3>
           <p class="font-lato text-sm text-on-surface-variant mb-6 leading-relaxed font-normal">
@@ -141,12 +159,15 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
       </div>
 
       <!-- Row 4: three equal cards (Men's, Eye & Ear, Skin) -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+        <RouterLink
+          to="/services/mens-health"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] flex flex-col h-full block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">male</span>
           <h3 class="font-manrope font-medium text-xl text-on-surface mb-4">Men's Health</h3>
           <ul class="space-y-2 mt-auto">
@@ -159,8 +180,11 @@
               {{ item }}
             </li>
           </ul>
-        </div>
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+        </RouterLink>
+        <RouterLink
+          to="/services/eye-ear-issues"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] flex flex-col h-full block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">visibility</span>
           <h3 class="font-manrope font-medium text-xl text-on-surface mb-4">Eye &amp; Ear Issues</h3>
           <ul class="space-y-2 mt-auto">
@@ -173,8 +197,11 @@
               {{ item }}
             </li>
           </ul>
-        </div>
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+        </RouterLink>
+        <RouterLink
+          to="/services/skin-minor-injuries"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] flex flex-col h-full block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">healing</span>
           <h3 class="font-manrope font-medium text-xl text-on-surface mb-4">Skin &amp; Minor Injuries</h3>
           <ul class="space-y-2 mt-auto">
@@ -187,12 +214,15 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
       </div>
 
       <!-- Row 5: Medication Management — single-width card (Men's Health–style) -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+        <RouterLink
+          to="/services/medication-management"
+          class="bg-surface-container-lowest p-8 rounded-xl border border-transparent shadow-sm transition-all duration-200 hover:border-primary hover:shadow-[0_12px_40px_-8px_rgba(154,37,29,0.4)] flex flex-col h-full block no-underline text-inherit cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/30"
+        >
           <span class="material-symbols-outlined text-4xl text-primary mb-6">pill</span>
           <h3 class="font-manrope font-medium text-xl text-on-surface mb-4">Medication Management</h3>
           <ul class="space-y-2 mt-auto">
@@ -205,7 +235,7 @@
               {{ item }}
             </li>
           </ul>
-        </div>
+        </RouterLink>
       </div>
     </div>
   </section>

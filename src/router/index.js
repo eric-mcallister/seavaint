@@ -1,8 +1,12 @@
+import { nextTick } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import AboutView from '@/views/AboutView.vue'
 import FaqsView from '@/views/FaqsView.vue'
+import SpecialtyView from '@/views/SpecialtyView.vue'
+import TreatmentsHubView from '@/views/TreatmentsHubView.vue'
+import TreatmentView from '@/views/TreatmentView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +27,21 @@ const router = createRouter({
       component: ServicesView,
     },
     {
+      path: '/services/:slug',
+      name: 'specialty',
+      component: SpecialtyView,
+    },
+    {
+      path: '/treatments',
+      name: 'treatments',
+      component: TreatmentsHubView,
+    },
+    {
+      path: '/treatments/:slug',
+      name: 'treatment',
+      component: TreatmentView,
+    },
+    {
       path: '/faqs',
       name: 'faqs',
       component: FaqsView,
@@ -33,7 +52,14 @@ const router = createRouter({
     if (to.hash) {
       return { el: to.hash, behavior: 'smooth' }
     }
-    return { top: 0 }
+    return nextTick().then(
+      () =>
+        new Promise((resolve) => {
+          setTimeout(() => {
+            resolve({ top: 0, left: 0, behavior: 'auto' })
+          }, 0)
+        }),
+    )
   },
 })
 
