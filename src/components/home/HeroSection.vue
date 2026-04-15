@@ -20,18 +20,18 @@
           Empowering Wellness Through Personalized Care. Experience the future of medicine from the comfort of your home.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <button
-            type="button"
-            class="bg-primary text-on-primary px-10 py-4 rounded-lg font-manrope font-light text-lg shadow-lg hover:shadow-primary/20 transition-all flex items-center justify-center gap-2"
-          >
-            Learn More
-            <span class="material-symbols-outlined">arrow_forward</span>
-          </button>
           <router-link
             to="/services"
-            class="px-10 py-4 rounded-lg font-manrope font-light text-lg border border-outline/20 text-on-surface hover:bg-surface-container-low transition-all text-center inline-block"
+            class="min-h-14 bg-primary text-on-primary px-10 rounded-lg font-manrope font-light text-lg shadow-lg hover:shadow-primary/20 transition-all text-center inline-flex items-center justify-center"
           >
             Our Services
+          </router-link>
+          <router-link
+            to="/about"
+            class="min-h-14 px-10 rounded-lg font-manrope font-light text-lg border border-outline/20 text-on-surface bg-white/95 hover:bg-white transition-all inline-flex items-center justify-center gap-2 shadow-sm"
+          >
+            Learn More
+            <span class="material-symbols-outlined text-[1.25rem] leading-none" aria-hidden="true">arrow_forward</span>
           </router-link>
         </div>
       </div>
