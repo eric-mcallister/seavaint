@@ -1,0 +1,33 @@
+{
+  "slug": "pathogen-defense-maritime",
+  "title": "Pathogen Defense in Confined Maritime Environments",
+  "excerpt": "Innovative protocols for containing viral outbreaks on commercial vessels using advanced HVAC filtration and predictive tracking.",
+  "category": "Clinical",
+  "cardCategory": "Clinical",
+  "date": "May 14, 2024",
+  "readTime": "8 min read",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_wLPP7LICz5R7SffDg-6qh6TsIn95X-QqCqaUlC3g5J6037T3B4VHmwa1Bm0Er9Fpct7ceGGja5_5qdQmhPiHgy7mJZT14VcAE59xNLgHWl9YRcjnKVC54zXESTg8WkdqIbFSSFP3q_ddEU3pm4fJsYKze1XOEkgGiyMZzBRTfHLrpOc9b_qUMazXGDgEDsdtql4G3w53H1Ix_aleqJ-7lesvUJn7ZA4YMCLX_ufGfrFyNfOmAOkoEIAcqF72VWCl0mYFERKsHpwI",
+  "featured": false,
+  "gridLarge": true,
+  "authorName": "Seavaint Health Editorial",
+  "authorRole": "Clinical Operations",
+  "authorImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuSPjNGOp0u-uLGWVWvw8Xqb12N5WKPnhubEKejAPZ7wZUEVbUeQfbjeXm3yxcg-62_ySY4InBTRkNpWP9Pvxd_ZDm-7Z1cUs5FCf1XkoH5AyA6ezmCNIZs405IvxZFNxW8mI0oEaQjuzt3fRjZib2PO7DBD2981xJreoJQrljcn4V5cNn9OLPaLHOgbEbrwXlVxNLHcsENtdiFZsZdwRPql3WBwWi3ONd5FaV_uSfjv6Ug7zKWhjV6FIg9JIUElUlRR4WIPuf0TvM",
+  "heroImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_wLPP7LICz5R7SffDg-6qh6TsIn95X-QqCqaUlC3g5J6037T3B4VHmwa1Bm0Er9Fpct7ceGGja5_5qdQmhPiHgy7mJZT14VcAE59xNLgHWl9YRcjnKVC54zXESTg8WkdqIbFSSFP3q_ddEU3pm4fJsYKze1XOEkgGiyMZzBRTfHLrpOc9b_qUMazXGDgEDsdtql4G3w53H1Ix_aleqJ-7lesvUJn7ZA4YMCLX_ufGfrFyNfOmAOkoEIAcqF72VWCl0mYFERKsHpwI",
+  "publishedLine": "Published on May 14, 2024 • Seavaint Health",
+  "titleAccent": null,
+  "bodySections": [
+    {
+      "type": "lead",
+      "text": "Confined spaces amplify transmission risk. This article summarizes layered prevention strategies—from ventilation to crew education—that support safer voyages."
+    },
+    {
+      "type": "h2",
+      "text": "Layered protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "Combining environmental controls with rapid virtual triage helps crews respond before a cluster becomes a crisis. Documentation supports continuity when you reach port."
+    }
+  ],
+  "tags": ["Clinical", "Maritime", "Public Health"]
+}

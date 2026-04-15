@@ -51,6 +51,7 @@
 
   --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-lato: "Lato", ui-sans-serif, system-ui, sans-serif;
   --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
 
@@ -84,4 +85,15 @@
     rgba(251, 249, 248, 0.6) 70%,
     rgba(251, 249, 248, 0.2) 100%
   );
+}
+
+.editorial-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+  .editorial-text p {
+    margin-bottom: 2rem;
+  }
 }

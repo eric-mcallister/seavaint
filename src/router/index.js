@@ -7,6 +7,9 @@ import FaqsView from '@/views/FaqsView.vue'
 import SpecialtyView from '@/views/SpecialtyView.vue'
 import TreatmentsHubView from '@/views/TreatmentsHubView.vue'
 import TreatmentView from '@/views/TreatmentView.vue'
+import PricingView from '@/views/PricingView.vue'
+import BlogView from '@/views/BlogView.vue'
+import BlogArticleView from '@/views/BlogArticleView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +48,22 @@ const router = createRouter({
       path: '/faqs',
       name: 'faqs',
       component: FaqsView,
+    },
+    {
+      path: '/pricing',
+      name: 'pricing',
+      component: PricingView,
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: BlogView,
+    },
+    {
+      path: '/blog/:slug',
+      name: 'blog-article',
+      component: BlogArticleView,
+      props: true,
     },
   ],
   scrollBehavior(to, from, savedPosition) {

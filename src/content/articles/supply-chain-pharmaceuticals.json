@@ -1,0 +1,33 @@
+{
+  "slug": "supply-chain-pharmaceuticals",
+  "title": "Supply Chain Stability for Vital Pharmaceuticals",
+  "excerpt": "Maintaining the cold chain: New thermal-regulated container technologies for ocean freight medicine.",
+  "category": "Logistics",
+  "cardCategory": "Logistics",
+  "date": "June 3, 2024",
+  "readTime": "7 min read",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAcJ3ZO6cGmURruypNFXI3Zhee0V2TsKpGtXd4-8E5eVtK6xO7hnRz9bHEna8NMAhtycTLUQzl1S5JIkdZeWHpHt_cRFkbyZUOXH3kcwPewI2EL3eEqhVQcKPthZv_MW3q5dxEIQz-IxEQfxJQzYIRo-TP5uy3zp-8P0_bTHfxUJghje2T4rUN_TwTbGrELlnMHW6tN3nn_pcFhA4w1D40MiGlswnneTBThixXSRg-tF1lzfBZ7rwsaBYyACRP16K6jE1QpGI0UVSgn",
+  "featured": false,
+  "gridLarge": false,
+  "authorName": "Seavaint Health Editorial",
+  "authorRole": "Operations",
+  "authorImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuSPjNGOp0u-uLGWVWvw8Xqb12N5WKPnhubEKejAPZ7wZUEVbUeQfbjeXm3yxcg-62_ySY4InBTRkNpWP9Pvxd_ZDm-7Z1cUs5FCf1XkoH5AyA6ezmCNIZs405IvxZFNxW8mI0oEaQjuzt3fRjZib2PO7DBD2981xJreoJQrljcn4V5cNn9OLPaLHOgbEbrwXlVxNLHcsENtdiFZsZdwRPql3WBwWi3ONd5FaV_uSfjv6Ug7zKWhjV6FIg9JIUElUlRR4WIPuf0TvM",
+  "heroImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAcJ3ZO6cGmURruypNFXI3Zhee0V2TsKpGtXd4-8E5eVtK6xO7hnRz9bHEna8NMAhtycTLUQzl1S5JIkdZeWHpHt_cRFkbyZUOXH3kcwPewI2EL3eEqhVQcKPthZv_MW3q5dxEIQz-IxEQfxJQzYIRo-TP5uy3zp-8P0_bTHfxUJghje2T4rUN_TwTbGrELlnMHW6tN3nn_pcFhA4w1D40MiGlswnneTBThixXSRg-tF1lzfBZ7rwsaBYyACRP16K6jE1QpGI0UVSgn",
+  "publishedLine": "Published on June 3, 2024 • Seavaint Health",
+  "titleAccent": null,
+  "bodySections": [
+    {
+      "type": "lead",
+      "text": "Temperature excursions threaten efficacy. We outline how monitoring and routing discipline protect patients who depend on timely delivery."
+    },
+    {
+      "type": "h2",
+      "text": "From port to patient"
+    },
+    {
+      "type": "paragraph",
+      "text": "Handoffs between carriers and clinics benefit from shared visibility. Virtual care teams can align treatment starts with confirmed arrival windows."
+    }
+  ],
+  "tags": ["Logistics", "Pharmaceuticals", "Cold Chain"]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "predictive-analytics-epidemic",
+  "title": "Predictive Analytics in Epidemic Prevention",
+  "excerpt": "Utilizing port traffic data to forecast and mitigate the global spread of infectious diseases.",
+  "category": "Intelligence",
+  "cardCategory": "Intelligence",
+  "date": "July 18, 2024",
+  "readTime": "10 min read",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcaJSeQ-u_LCMXzUg2AcyCxnhe8KlJS19dJBqzCpxt8WDnEvMF7TvekFkQpQsMgGTN2i29l4sTvjBMzko1S_Ww_S3dmM17Ac4VQmaBjNH70H-FrNQx4IhmQF0Py5VF3pEfU9F-YmEkwq4Wa0nr_yDpd5YDnJpgRhts6vi0XUN5IYl4nMB7AD-5yP1eXb83SsnH0zdUBVbOQD5PVFsISoEzqU0EneTIRBlxsNKibjYzEPOfmRyJQloA_J8DEQqeWVi6809pLrrRjHxP",
+  "featured": false,
+  "gridLarge": false,
+  "authorName": "Seavaint Health Editorial",
+  "authorRole": "Population Health",
+  "authorImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuSPjNGOp0u-uLGWVWvw8Xqb12N5WKPnhubEKejAPZ7wZUEVbUeQfbjeXm3yxcg-62_ySY4InBTRkNpWP9Pvxd_ZDm-7Z1cUs5FCf1XkoH5AyA6ezmCNIZs405IvxZFNxW8mI0oEaQjuzt3fRjZib2PO7DBD2981xJreoJQrljcn4V5cNn9OLPaLHOgbEbrwXlVxNLHcsENtdiFZsZdwRPql3WBwWi3ONd5FaV_uSfjv6Ug7zKWhjV6FIg9JIUElUlRR4WIPuf0TvM",
+  "heroImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuCcaJSeQ-u_LCMXzUg2AcyCxnhe8KlJS19dJBqzCpxt8WDnEvMF7TvekFkQpQsMgGTN2i29l4sTvjBMzko1S_Ww_S3dmM17Ac4VQmaBjNH70H-FrNQx4IhmQF0Py5VF3pEfU9F-YmEkwq4Wa0nr_yDpd5YDnJpgRhts6vi0XUN5IYl4nMB7AD-5yP1eXb83SsnH0zdUBVbOQD5PVFsISoEzqU0EneTIRBlxsNKibjYzEPOfmRyJQloA_J8DEQqeWVi6809pLrrRjHxP",
+  "publishedLine": "Published on July 18, 2024 • Seavaint Health",
+  "titleAccent": null,
+  "bodySections": [
+    {
+      "type": "lead",
+      "text": "Signals from mobility and port volume can complement clinical surveillance. Used responsibly, analytics help teams allocate testing and communication earlier."
+    },
+    {
+      "type": "h2",
+      "text": "From signals to action"
+    },
+    {
+      "type": "paragraph",
+      "text": "No model replaces bedside judgment—but shared situational awareness can shorten the path from concern to coordinated response."
+    }
+  ],
+  "tags": ["Intelligence", "Analytics", "Public Health"]
+}
