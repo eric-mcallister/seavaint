@@ -28,7 +28,7 @@
               <span class="material-symbols-outlined text-3xl text-primary shrink-0">payments</span>
               <div>
                 <h4 class="font-manrope font-medium text-sm text-on-surface mb-1">
-                  Advance Care cards
+                  Advance Care Cards
                 </h4>
                 <p class="text-xs text-on-surface-variant font-lato font-normal mb-2">
                   Interest-free financing may be available for eligible care through Advance Care.

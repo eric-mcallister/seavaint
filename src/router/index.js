@@ -10,6 +10,7 @@ import TreatmentView from '@/views/TreatmentView.vue'
 import PricingView from '@/views/PricingView.vue'
 import BlogView from '@/views/BlogView.vue'
 import BlogArticleView from '@/views/BlogArticleView.vue'
+import PsychiatryServicesView from '@/views/PsychiatryServicesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/services',
       name: 'services',
       component: ServicesView,
+    },
+    {
+      path: '/psychiatry-services',
+      name: 'psychiatry-services',
+      component: PsychiatryServicesView,
     },
     {
       path: '/services/:slug',

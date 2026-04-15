@@ -49,3 +49,16 @@ export function articleMatchesFilter(article, filterId) {
 export function getRelatedArticles(currentSlug, limit = 3) {
   return articles.filter((a) => a.slug !== currentSlug).slice(0, limit)
 }
+
+/** Newest posts first (by `date` string); used on FAQs and similar. */
+export function getLatestArticles(limit = 3) {
+  return [...articles]
+    .sort((a, b) => {
+      const da = Date.parse(a.date)
+      const db = Date.parse(b.date)
+      const ta = Number.isNaN(da) ? 0 : da
+      const tb = Number.isNaN(db) ? 0 : db
+      return tb - ta
+    })
+    .slice(0, limit)
+}

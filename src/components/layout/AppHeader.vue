@@ -36,6 +36,12 @@
             Services Hub
           </router-link>
           <router-link
+            to="/psychiatry-services"
+            :class="navLinkClass(isPsychiatry)"
+          >
+            Psychiatry Services
+          </router-link>
+          <router-link
             to="/treatments"
             :class="navLinkClass(isTreatments)"
           >
@@ -66,12 +72,12 @@
         </div>
 
         <div class="hidden md:flex items-center shrink-0">
-          <button
-            type="button"
-            class="bg-primary text-on-primary px-6 py-2.5 rounded-lg text-sm font-manrope font-light tracking-tight scale-95 active:scale-90 transition-transform hover:opacity-90"
+          <router-link
+            :to="{ path: '/', hash: '#contact' }"
+            class="inline-block bg-primary hover:bg-primary-container text-on-primary px-6 py-2.5 rounded-lg text-sm font-manrope font-light tracking-tight shadow-xl shadow-primary/20 transition-all hover:scale-[1.02] active:scale-95"
           >
             Book Appointment
-          </button>
+          </router-link>
         </div>
 
         <button
@@ -138,13 +144,13 @@
               </a>
             </nav>
             <div class="p-4 border-t border-outline-variant/15 bg-surface-container-low/50">
-              <a
-                href="/#contact"
-                class="flex items-center justify-center w-full bg-primary text-on-primary px-4 py-3 rounded-lg text-sm font-manrope font-medium tracking-tight hover:opacity-90 transition-opacity"
+              <router-link
+                :to="{ path: '/', hash: '#contact' }"
+                class="flex items-center justify-center w-full bg-primary hover:bg-primary-container text-on-primary px-4 py-3 rounded-lg text-sm font-manrope font-medium tracking-tight shadow-xl shadow-primary/20 transition-all hover:scale-[1.02] active:scale-95"
                 @click="closeMenu"
               >
                 Book Appointment
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -167,11 +173,13 @@ const isTreatments = computed(() => route.path === '/treatments' || route.path.s
 const isFaqs = computed(() => route.path === '/faqs')
 const isPricing = computed(() => route.path === '/pricing')
 const isBlog = computed(() => route.path === '/blog' || route.path.startsWith('/blog/'))
+const isPsychiatry = computed(() => route.path === '/psychiatry-services')
 
 const mobileLinks = [
   { label: 'Home', to: '/', match: () => isHome.value },
   { label: 'About', to: '/about', match: () => isAbout.value },
   { label: 'Services Hub', to: '/services', match: () => isServices.value },
+  { label: 'Psychiatry Services', to: '/psychiatry-services', match: () => isPsychiatry.value },
   { label: 'Treatments', to: '/treatments', match: () => isTreatments.value },
   { label: 'FAQs', to: '/faqs', match: () => isFaqs.value },
   { label: 'Pricing', to: '/pricing', match: () => isPricing.value },
